@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="StudentApp.EmergencyPage"
+             Title="Emergency Contacts">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout BackgroundColor="Aqua">
+                <Image x:Name="Tranquility" Aspect="Fill"/>
+                <Button Text="Call GMIT Counsellors" BackgroundColor="LightSeaGreen" Clicked="CounsellorsButton" />
+                <Button Text="GMIT Student's Union Welfare Website" BackgroundColor="LightSeaGreen" Clicked="StudentsUnionButton" />
+                <Button Text="Call Galway Garda Station" BackgroundColor="LightSeaGreen" Clicked="GalwayGardaButton" />
+                <Button Text="Call Oranmore Garda Station" BackgroundColor="LightSeaGreen" Clicked="OranmoreGardaButton" />
+                <Button Text="Call Galway City Fire Station" BackgroundColor="LightSeaGreen" Clicked="FireStationButton" />
+                <Button Text="Call University Hospital Galway" BackgroundColor="LightSeaGreen" Clicked="UniversityHospitalButton" />
+                <Button Text="Call Pieta House" BackgroundColor="LightSeaGreen" Clicked="PietaHouseButton" />
+                <Button Text="Call JigSaw Galway" BackgroundColor="LightSeaGreen" Clicked="JigSawButton" />
+                <Button Text="Call Citizens Information" BackgroundColor="LightSeaGreen" Clicked="CitizenInformationButton" />
+                <Button Text="Citizens Information Website" BackgroundColor="LightSeaGreen" Clicked="CitizenInformationButtonSite" />
+            </StackLayout>
+        </ScrollView>       
+    </ContentPage.Content>
+</ContentPage>

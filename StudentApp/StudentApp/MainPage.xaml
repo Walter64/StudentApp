@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:StudentApp"
+             x:Class="StudentApp.MainPage"
+             Title="Student Survival App">
+
+    <ContentPage.Content>
+        
+        <Grid x:Name="GrdContentPage" Margin="0">
+
+            <!-- Create grid of 3 rows and 3 columns -->
+            <Grid.RowDefinitions>
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition />
+                <ColumnDefinition />
+                <ColumnDefinition />
+            </Grid.ColumnDefinitions>
+
+            <Image x:Name="MainImage" Aspect="Fill"
+                   Margin="0"
+                   Grid.Row="0" Grid.ColumnSpan="3" />
+
+            <ImageButton x:Name="TransportImage" Aspect="Fill"
+                         Margin="3, 0, 0, 0"
+                         Grid.Row="1" Grid.Column="0"
+                         Clicked="TransportImage_Clicked" />
+
+            <ImageButton x:Name="MenuImage" Aspect="Fill"
+                         Grid.Row="1" Grid.Column="1"
+                         Margin="0"
+                         Clicked="MenuImage_Clicked" />
+
+            <ImageButton x:Name="FinanceImage" Aspect="Fill"
+                         Grid.Row="1" Grid.Column="2"
+                         Margin="0, 0, 3, 0"
+                         Clicked="FinanceImage_Clicked" />
+
+            <ImageButton x:Name="EmergencyImage" Aspect="Fill"
+                         Grid.Row="2" Grid.Column="0"
+                         Margin="3, 0, 0, 3"
+                         Clicked="EmergencyImage_Clicked"/>
+
+            <ImageButton x:Name="RecreationImage" Aspect="Fill"
+                         Grid.Row="2" Grid.Column="1"
+                         Margin="0, 0, 0, 3"
+                         Clicked="RecreationImage_Clicked" />
+
+            <ImageButton x:Name="StudyTipsImage" Aspect="Fill"
+                         Grid.Row="2" Grid.Column="2"
+                         Margin="0, 0, 3, 3"
+                         Clicked="StudyTipsImage_Clicked" />
+            
+        </Grid>
+        
+    </ContentPage.Content>
+</ContentPage>

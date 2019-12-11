@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:StudentApp"
+             x:Class="StudentApp.TransportPage"
+             Title="Transport Information" >
+
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <Image x:Name="TrainImage" />
+                <Button Text="Iarnrod Eireann Timetable" BackgroundColor="LightSeaGreen" Clicked="IarnrodEireann"/>
+                <Image x:Name="BusImage" />
+                <Button Text="Galway City Bus Services" BackgroundColor="LightSeaGreen" Clicked="GalwayCity" />
+                <Button Text="Bus Eireann Timetable" BackgroundColor="LightSeaGreen" Clicked="BusEireann" />
+                <Button Text="Bus Eireann Express Timetable" BackgroundColor="LightSeaGreen" Clicked="BusEireannExpress" />
+                <Button Text="Irish Citylink Timetable" BackgroundColor="LightSeaGreen" Clicked="CityLink"/>
+                <Button Text="Go Bus Timetable" BackgroundColor="LightSeaGreen" Clicked="GoBus" />
+                <Button Text="Bus Feda Timetable" BackgroundColor="LightSeaGreen" Clicked="BusFeda" />
+                <Button Text="Burkes Bus Timetable" BackgroundColor="LightSeaGreen" Clicked="Burkesbus"/>
+                <Button Text="Buslink (Athenry) Timetable" BackgroundColor="LightSeaGreen" Clicked="Buslink"/>
+            </StackLayout>
+        </ScrollView>        
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="StudentApp.MenuPage"
+             Title="Student Recipe Book">
+    <ContentPage.Content>
+        <Grid x:Name="GrdContentPage" Margin="3" BackgroundColor="AliceBlue">
+
+            <!-- Create grid of 3 rows and 3 columns -->
+            <Grid.RowDefinitions>
+                <RowDefinition />
+                <RowDefinition />                
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition />
+                <ColumnDefinition />
+            </Grid.ColumnDefinitions>            
+
+            <ImageButton x:Name="BreakfastImage" Aspect="Fill"                         
+                         Grid.Row="0" Grid.Column="0"
+                         Clicked="BreakfastImage_Clicked" />
+
+            <ImageButton x:Name="DinnerImage" Aspect="Fill"
+                         Grid.Row="0" Grid.Column="1"                         
+                         Clicked="DinnerImage_Clicked" />
+
+            <ImageButton x:Name="GlutenfreeImage" Aspect="Fill"
+                         Grid.Row="1" Grid.Column="0"
+                         Clicked="GlutenfreeImage_Clicked" />
+
+            <ImageButton x:Name="VegaterianImage" Aspect="Fill"
+                         Grid.Row="1" Grid.Column="1"
+                         Clicked="VegaterianImage_Clicked"/>
+
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

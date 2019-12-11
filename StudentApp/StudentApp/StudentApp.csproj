@@ -1,0 +1,118 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DebugType>pdbonly</DebugType>
+    <DebugSymbols>true</DebugSymbols>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Images\aib.jpg" />
+    <None Remove="Images\anPucan.jpg" />
+    <None Remove="Images\bankOfIreland.jpg" />
+    <None Remove="Images\breakfast.jpg" />
+    <None Remove="Images\busImage350.jpg" />
+    <None Remove="Images\cooking_1.jpg" />
+    <None Remove="Images\creditUnion.jpg" />
+    <None Remove="Images\dinner.jpg" />
+    <None Remove="Images\dnaImage.jpg" />
+    <None Remove="Images\emergency_1.jpg" />
+    <None Remove="Images\finance_1.jpg" />
+    <None Remove="Images\glutenfree.jpg" />
+    <None Remove="Images\higherEducation.jpg" />
+    <None Remove="Images\mainImage_1.jpg" />
+    <None Remove="Images\mcGettigans.jpg" />
+    <None Remove="Images\noteImage.jpg" />
+    <None Remove="Images\openUniversity.png" />
+    <None Remove="Images\qualifax.png" />
+    <None Remove="Images\recreation_1.jpg" />
+    <None Remove="Images\roisin.jpg" />
+    <None Remove="Images\skeff.png" />
+    <None Remove="Images\StudentsUnion.png" />
+    <None Remove="Images\studyTips.jpg" />
+    <None Remove="Images\study_1.jpg" />
+    <None Remove="Images\susi.jpg" />
+    <None Remove="Images\trainImage350.jpg" />
+    <None Remove="Images\tranquil.jpg" />
+    <None Remove="Images\transport_1.jpg" />
+    <None Remove="Images\trinityCollege.png" />
+    <None Remove="Images\vegetarian.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Images\aib.jpg" />
+    <EmbeddedResource Include="Images\anPucan.jpg" />
+    <EmbeddedResource Include="Images\bankOfIreland.jpg" />
+    <EmbeddedResource Include="Images\breakfast.jpg" />
+    <EmbeddedResource Include="Images\busImage350.jpg" />
+    <EmbeddedResource Include="Images\cooking_1.jpg" />
+    <EmbeddedResource Include="Images\creditUnion.jpg" />
+    <EmbeddedResource Include="Images\dinner.jpg" />
+    <EmbeddedResource Include="Images\dnaImage.jpg" />
+    <EmbeddedResource Include="Images\finance_1.jpg" />
+    <EmbeddedResource Include="Images\glutenfree.jpg" />
+    <EmbeddedResource Include="Images\higherEducation.jpg" />
+    <EmbeddedResource Include="Images\mainImage_1.jpg" />
+    <EmbeddedResource Include="Images\mcGettigans.jpg" />
+    <EmbeddedResource Include="Images\noteImage.jpg" />
+    <EmbeddedResource Include="Images\openUniversity.png" />
+    <EmbeddedResource Include="Images\qualifax.png" />
+    <EmbeddedResource Include="Images\recreation_1.jpg" />
+    <EmbeddedResource Include="Images\roisin.jpg" />
+    <EmbeddedResource Include="Images\skeff.png" />
+    <EmbeddedResource Include="Images\StudentsUnion.png" />
+    <EmbeddedResource Include="Images\studyTips.jpg" />
+    <EmbeddedResource Include="Images\study_1.jpg" />
+    <EmbeddedResource Include="Images\susi.jpg" />
+    <EmbeddedResource Include="Images\trainImage350.jpg" />
+    <EmbeddedResource Include="Images\tranquil.jpg" />
+    <EmbeddedResource Include="Images\transport_1.jpg" />
+    <EmbeddedResource Include="Images\trinityCollege.png" />
+    <EmbeddedResource Include="Images\vegetarian.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Xam.Plugins.Messaging" Version="5.2.0" />
+    <PackageReference Include="Xamarin.Forms" Version="3.4.0.1008975" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Images\emergency_1.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="TransportPage.xaml.cs">
+      <DependentUpon>TransportPage.xaml</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="EmergencyPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="FinancePage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="MenuPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="MyNotesPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="NoteEntryPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="RecreationPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="StudyTipsPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="TransportPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+  </ItemGroup>
+</Project>

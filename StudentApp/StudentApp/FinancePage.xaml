@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="StudentApp.FinancePage"
+             Title="Student Financial Information">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <ImageButton x:Name="SUSI" Clicked="SUSI_Clicked" HeightRequest="150" Aspect="Fill" />
+                <ImageButton x:Name="StudentsUnion" Clicked="StudentsUnion_Clicked" HeightRequest="150" Aspect="Fill" />
+                <ImageButton x:Name="CreditUnion" Clicked="CreditUnion_Clicked" HeightRequest="150" Aspect="Fill" />
+                <ImageButton x:Name="AIB" Clicked="AIB_Clicked" HeightRequest="150" Aspect="Fill" />
+                <ImageButton x:Name="Qualifax" Clicked="Qualifax_Clicked" HeightRequest="150" Aspect="Fill"/>
+                <ImageButton x:Name="BankOfIreland" Clicked="BankOfIreland_Clicked" HeightRequest="150" Aspect="Fill" />
+                <ImageButton x:Name="HEA" Clicked="HEA_Clicked" HeightRequest="500" Aspect="Fill" />
+            </StackLayout>
+        </ScrollView>        
+    </ContentPage.Content>
+</ContentPage>

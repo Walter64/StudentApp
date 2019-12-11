@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"             
+             x:Class="StudentApp.RecreationPage"
+             Title="Student Enterainment Guide">
+    
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+
+                <ImageButton x:Name="AnPucan" Aspect="Fill" HeightRequest="150" Clicked="AnPucanButton" />
+                <Label Text="An Pucan Bar" BackgroundColor="Crimson" HorizontalTextAlignment="Center" FontSize="Large"/>
+                <Label Text="An Pucan is a firm favourite amongst Galway students, and it is simple to see why. Friendly staff who are experts at pouring the perfect pint or creating wonderful cocktails a fabulous outdoor area, and a mix of live music and DJ's have cemented a night in An Pucan as one of the best student nights in Galway." />
+
+                <ImageButton x:Name="Skeff" Aspect="Fill" HeightRequest="150" Clicked="SkeffBarButton" />
+                <Label Text="The Skeff Bar" BackgroundColor="Crimson" HorizontalTextAlignment="Center" FontSize="Large"/>
+                <Label Text="The Skeff is located in Eyre Square, Galway city's beating heart, and has been the host of many a memorable student night out. It has a late bar which entertains students each night of the week with live music acts and a resident DJ provide the background music to your night until 2 am Monday right through to Sunday." />
+
+                <ImageButton x:Name="McGettigans" Aspect="Fill" HeightRequest="150" Clicked="McGettigansButton" />
+                <Label Text="McGettigans Galway" BackgroundColor="Crimson" HorizontalTextAlignment="Center" FontSize="Large"/>
+                <Label Text="McGettigan's is a popular choice for students and is especially attractive for the sports fanatics in any friends group. Well reputed for their multiple sports screens and cover a varied number of sporting events, from GAA matches to the latest World Cup fixtures. Sports coverage isn't the only attraction that causes students to flock here, their amazing cocktail deals are ideal for a student budget." />
+
+                <ImageButton x:Name="DNA" Aspect="Fill" HeightRequest="150" Clicked="DnaButton" />
+                <Label Text="DNA Nigthclub" BackgroundColor="Crimson" HorizontalTextAlignment="Center" FontSize="Large"/>
+                <Label Text="DNA is a large, beautifully decorated nightclub that has 4 bars spread across an impressive three levels. Glowing lights and intricate design gives DNA a cosmopolitan feel right in the heart of Galway. Open until late Wednesday through to Sunday, DNA always provides a night of craic with plenty of stories to tell in the morning." />
+
+                <ImageButton x:Name="RoisinDubh" Aspect="Fill" HeightRequest="150" Clicked="RoisinDubhButton" />
+                <Label Text="Roisin Dubh Bar" BackgroundColor="Crimson" HorizontalTextAlignment="Center" FontSize="Large"/>
+                <Label Text="Róisín Dubh is undoubtedly one of the best music and comedy venues in the country, bringing established talent to the city, while also providing a stage for emerging artists. With a great atmosphere, wonderful staff, and a real commitment and passion to music and comedy, it's one of the best places to see the best national and international acts around." />
+                
+            </StackLayout>
+        </ScrollView>
+        
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="StudentApp.StudyTipsPage"
+             Title="Student Study Skills Cave">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <ImageButton x:Name="MakeNoteImage" Aspect="Fill" HeightRequest="150" Clicked="MakeNoteImage_Clicked" />
+                <ImageButton x:Name="OpenUniversity" Aspect="Fill" HeightRequest="150" Clicked="OpenUniversity_Clicked" />
+                <ImageButton x:Name="StudyTips" Aspect="Fill" HeightRequest="150" Clicked="StudyTips_Clicked" />
+                <ImageButton x:Name="TrinityCollege" Aspect="Fill" HeightRequest="150" Clicked="TrinityCollege_Clicked" />
+            </StackLayout>
+        </ScrollView>        
+    </ContentPage.Content>
+</ContentPage>
